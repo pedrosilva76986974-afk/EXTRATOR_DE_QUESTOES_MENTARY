@@ -1,3 +1,13 @@
+# Squad 47
+
+Integrantes:
+- Lucas Gabriel de Santana Santos / https://github.com/LcExe7 
+- Pedro Gabriel Lima da Silva / https://github.com/pedrosilva76986974-afk
+- João Guilherme Correia Aires / https://github.com/eujotag
+- Lucas Nascimento Corumba / https://github.com/lucas124211
+- Sérgio Lorran Souza da Paixão / https://github.com/Lorran-12
+- Carla Maria Mota Chagas / https://github.com/caah522
+
 # Mentary
 
 Extrator de Questões e Módulo de Inteligência Avaliativa.
