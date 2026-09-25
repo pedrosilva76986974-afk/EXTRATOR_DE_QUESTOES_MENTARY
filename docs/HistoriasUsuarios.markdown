@@ -170,3 +170,139 @@ Critérios de aceitação:
 - Deve permitir filtrar por descritor.
 - Deve permitir filtrar por dificuldade.
 - Deve apresentar as questões correspondentes.
+
+HU13 — Receber dados da avaliação
+
+Requisito: RF13 — O sistema deve receber os dados da aplicação.
+
+História:
+
+Como sistema de inteligência avaliativa, quero receber os dados das avaliações realizadas, para que o desempenho dos estudantes possa ser analisado.
+
+Critérios de aceitação:
+
+Deve receber as questões aplicadas.
+Deve receber os gabaritos.
+Deve receber as respostas dos estudantes.
+Deve identificar a turma e a aplicação.
+Deve registrar a data da aplicação.
+Deve armazenar os dados recebidos.
+Módulo 3 — Inteligência Avaliativa
+
+HU14 — Processar respostas
+
+Requisito: RF14 — O sistema deve processar as respostas.
+
+História:
+
+Como professor, quero que as respostas das avaliações sejam corrigidas e classificadas automaticamente, para obter os resultados dos estudantes.
+
+Critérios de aceitação:
+
+Deve identificar respostas corretas.
+Deve identificar respostas incorretas.
+Deve identificar questões não respondidas.
+Deve utilizar o gabarito registrado.
+Deve armazenar os resultados processados.
+
+HU15 — Calcular desempenho
+
+Requisito: RF15 — O sistema deve calcular desempenho em diferentes dimensões.
+
+História:
+
+Como professor, quero visualizar o desempenho por estudante, turma, questão, habilidade e descritor, para identificar onde existem dificuldades de aprendizagem.
+
+Critérios de aceitação:
+
+Deve calcular desempenho por estudante.
+Deve calcular desempenho por turma.
+Deve permitir analisar por questão.
+Deve permitir analisar por habilidade BNCC.
+Deve permitir analisar por descritor.
+Deve armazenar o histórico dos resultados.
+
+HU16 — Consultar dashboard
+
+Requisito: RF16 — O sistema deve disponibilizar dashboards por perfil.
+
+História:
+
+Como usuário pedagógico, quero visualizar indicadores de desempenho em um dashboard, para acompanhar os resultados das avaliações de forma centralizada.
+
+Critérios de aceitação:
+
+Deve apresentar indicadores de desempenho.
+Deve permitir aplicar filtros.
+Deve apresentar os dados de acordo com o perfil do usuário.
+Deve permitir visualizar informações de estudantes, turmas ou escolas conforme a permissão.
+Deve apresentar os resultados de forma visual.
+
+HU17 — Gerar relatório por descritor
+
+Requisito: RF17 — O sistema deve gerar relatórios por descritor e habilidade.
+
+História:
+
+Como coordenador pedagógico, quero gerar relatórios de desempenho por descritor e habilidade, para identificar quais competências precisam de maior atenção.
+
+Critérios de aceitação:
+
+Deve permitir selecionar um descritor.
+Deve apresentar quantidade de questões relacionadas.
+Deve apresentar acertos, erros e omissões.
+Deve apresentar o desempenho dos estudantes.
+Deve apresentar o tempo médio de resposta quando disponível.
+Deve permitir comparar resultados.
+Deve apresentar o nível de atenção configurado.
+
+HU18 — Comparar resultados
+
+Requisito: RF18 — O sistema deve permitir comparar classes e aplicações.
+
+História:
+
+Como coordenador pedagógico, quero comparar os resultados de diferentes turmas ou aplicações, para acompanhar diferenças e evolução do desempenho.
+
+Critérios de aceitação:
+
+Deve permitir selecionar duas ou mais referências de comparação.
+Deve apresentar os resultados lado a lado.
+Deve permitir comparar desempenho.
+Deve permitir comparar habilidades e descritores.
+Deve apresentar a evolução quando houver histórico disponível.
+
+HU19 — Identificar lacunas de aprendizagem
+
+Requisito: RF19 — O sistema deve identificar lacunas de aprendizagem.
+
+História:
+
+Como professor, quero identificar habilidades e descritores com baixo desempenho, para saber quais conteúdos precisam de intervenção pedagógica.
+
+Critérios de aceitação:
+
+Deve analisar os resultados das avaliações.
+Deve identificar habilidades com baixo desempenho.
+Deve identificar descritores com baixo desempenho.
+Deve classificar os resultados conforme os níveis de atenção configurados.
+Deve apresentar as lacunas identificadas.
+Deve permitir consultar os dados que originaram a identificação.
+
+HU20 — Analisar qualidade das questões
+
+Requisito: RF20 — O sistema deve realizar análise básica da qualidade das questões.
+
+História:
+
+Como revisor, quero analisar o comportamento das questões após sua aplicação, para identificar questões que precisam ser revisadas.
+
+Critérios de aceitação:
+
+Deve apresentar quantidade de aplicações.
+Deve apresentar taxa de acertos e erros.
+Deve apresentar respostas em branco.
+Deve apresentar distribuição das alternativas.
+Deve apresentar o tempo médio de resposta.
+Deve identificar comportamentos que mereçam atenção.
+Deve gerar alertas quando regras configuradas forem atendidas.
