@@ -6,3 +6,4 @@ build/
 coverage/
 .vscode/
 *.log
+src/backend/uploads/
